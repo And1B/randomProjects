@@ -3,8 +3,9 @@ public class DNA {
 
     public static void main(String[] args) {
         String dna1 = "ATGCGATACGCTTGA";
-        String dna2 = "ATGCGATACGTGA";
-        String dna3 = "ATTAATATGTACTGA";
+ //       String dna2 = "ATGCGATACGTGA";
+ //       String dna3 = "ATTAATATGTACTGA";
+ // just some more examples/tries to see if it actually works.
         String dna = dna1;
 //    System.out.println(dna.length());
         String protein = dna.substring(3, dna.length() - 3);
