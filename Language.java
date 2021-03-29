@@ -14,11 +14,13 @@ public class Language {
         this.wordOrder = order;
     }
 
+    // compiles a new language into an informative text about that certain language
     public void getInfo(){
         System.out.println(this.name + " is spoken by " + this.numSpeakers + " people mainly in " + this.regionsSpoken + ".");
         System.out.println("The language follows the word order: " + wordOrder + ".");
     }
 
+    // lists all Information stored in the ArrayList languages compiled through the method getInfo
     public static void listAllInformation(ArrayList<Language> list){
         for (Language language : list) {
             language.getInfo();
